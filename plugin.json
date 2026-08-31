@@ -1,6 +1,6 @@
 {
   "name": "webmcp-enable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Build and verify browser WebMCP tools for website workflows using editable source or a session-local adapter.",
   "author": {
     "name": "skundu42",
@@ -20,7 +20,7 @@
     "websiteURL": "https://github.com/skundu42/web-mcp-skill",
     "privacyPolicyURL": "https://github.com/skundu42/web-mcp-skill/blob/main/PRIVACY.md",
     "termsOfServiceURL": "https://github.com/skundu42/web-mcp-skill/blob/main/TERMS.md",
-    "brandColor": "#00DBB0",
+    "brandColor": "#008066",
     "composerIcon": "./assets/logo.png",
     "logo": "./assets/logo.png",
     "defaultPrompt": [

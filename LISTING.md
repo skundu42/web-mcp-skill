@@ -1,6 +1,6 @@
 # Plugin listing materials
 
-Prepared for version **1.0.1**. This worksheet is for the OpenAI submission portal; it is not a published directory listing or a record of completed policy attestations.
+Prepared for version **1.0.2**. This worksheet is for the OpenAI submission portal; it is not a published directory listing or a record of completed policy attestations.
 
 ## Public listing fields
 
@@ -15,6 +15,7 @@ Prepared for version **1.0.1**. This worksheet is for the OpenAI submission port
 | Privacy policy URL | https://github.com/skundu42/web-mcp-skill/blob/main/PRIVACY.md |
 | Terms URL | https://github.com/skundu42/web-mcp-skill/blob/main/TERMS.md |
 | Logo | [assets/logo.png](assets/logo.png), square 1254 × 1254 opaque PNG |
+| Brand color | `#008066`, 4.91:1 contrast against white |
 | Release notes | [RELEASE_NOTES.md](RELEASE_NOTES.md) |
 | Manifest source | [plugin.json](plugin.json) |
 | Support language | English |

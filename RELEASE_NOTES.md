@@ -1,5 +1,13 @@
 # Release notes
 
+## 1.0.2 — August 31, 2026
+
+Corrected the plugin brand color from `#00DBB0` (1.79:1 contrast against white) to `#008066` (4.91:1), exceeding the submission validator's 2:1 minimum. The logo, skill instructions, policy URLs, and regional policy are unchanged. Use the 1.0.2 ZIP when retrying the upload; earlier ZIPs retain the rejected color.
+
+### Text for the submission release-notes field
+
+Corrects the brand-color contrast validation error with a darker teal that provides 4.91:1 contrast against white. No workflow, permission, or runtime changes. Native-browser and target-agent compatibility remain unverified.
+
 ## 1.0.1 — August 31, 2026
 
 Listing-materials update to the locally prepared 1.0.0 bundle. Neither version has been submitted to or published in the OpenAI Plugins Directory.
