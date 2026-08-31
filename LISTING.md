@@ -19,6 +19,7 @@ Prepared for version **1.0.1**. This worksheet is for the OpenAI submission port
 | Manifest source | [plugin.json](plugin.json) |
 | Support language | English |
 | Support channel | Public GitHub Issues, best effort, no guaranteed response time |
+| Launch regions | All OpenAI-supported countries and territories for ChatGPT/Codex, subject to product availability and platform restrictions |
 
 The publisher account above is a repository identity, not evidence of verified developer identity. Select your verified individual or business identity in the portal and ensure the public publisher details match before submitting.
 
@@ -28,14 +29,18 @@ The descriptions and three starter prompts are preserved in [plugin.json](plugin
 
 ## Availability
 
-**Launch countries/regions have not yet been selected by the publisher.** No directory submission or regional enablement has been performed.
+**Publisher-selected launch scope: all countries and territories where OpenAI officially supports ChatGPT/Codex.** Confirmed August 31, 2026. The publisher adds no further geographic exclusions. No directory submission or regional enablement has been performed yet.
 
-The instructions have no geographic enforcement and are written in English. This does not establish worldwide support, platform availability, legal suitability, or a data-residency commitment. In the portal's Global tab, select only countries/regions where the publisher is ready to provide the stated support and terms. Record the chosen country names and ISO codes here before submission.
+Use OpenAI's current [ChatGPT supported countries and territories](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries) as the reference, checked August 31, 2026. Preserve any stated regional exceptions and product-specific restrictions; OpenAI API availability alone does not establish ChatGPT/Codex availability.
+
+In the portal's Global tab, select every supported region available for this plugin. Do not include unsupported locations or bypass platform restrictions. Recheck the official list and portal options before submission and future availability updates; this policy does not automatically change portal selections when OpenAI adds regions.
+
+Documentation and best-effort support remain in English throughout the selected regions. The bundle adds no geographic checks of its own. Regional support does not guarantee native browser compatibility, every product feature, legal suitability for a particular use, or data residency.
 
 ## Remaining submission checks
 
 - Publisher reviews the support, privacy, and terms documents against their actual operations and intended jurisdictions; these documents have not received legal review.
-- Choose launch regions and match the public publisher details to a verified Platform identity.
+- Apply the selected regional scope in the portal and match the public publisher details to a verified Platform identity.
 - Test the final skill tree locally in Codex and prepare five positive and three negative reproducible reviewer cases. Native-browser and target-agent verification remain outstanding.
 - Confirm all public URLs and logo uploads in the portal, then complete policy attestations and submit for review. Approval and publication are separate steps.
 

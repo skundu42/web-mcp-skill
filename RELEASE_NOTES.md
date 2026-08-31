@@ -8,6 +8,7 @@ Listing-materials update to the locally prepared 1.0.0 bundle. Neither version h
 - Added the policy URLs and logo references to the plugin manifest.
 - Preserved the existing skill instructions, descriptions, starter prompts, and automatic skill discovery.
 - Added a listing worksheet recording the submission fields and remaining publisher decisions.
+- Recorded the publisher's regional policy: all OpenAI-supported countries and territories for ChatGPT/Codex, subject to platform restrictions, with English-language best-effort support. Portal selections have not yet been applied.
 
 The plugin remains instructions-only: no runtime dependencies, executable helpers, MCP server, extension, or automatic browser-setting changes. No software has been installed by preparing this release.
 

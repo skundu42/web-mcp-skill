@@ -22,7 +22,7 @@ Documentation and support are in English. Support is provided through the issue 
 
 Support covers the plugin's instructions, packaging, and reproducible integration problems. Browser features, third-party services, website permissions, and Codex account access are controlled by their providers. Installing this plugin does not enable browser WebMCP or guarantee compatibility with a particular site or agent.
 
-The bundle has no geographic checks of its own. Directory availability depends on the publisher's region selections and the platform; see the current [listing status](LISTING.md#availability). This is not a claim of worldwide support or legal suitability.
+The publisher supports all countries and territories where OpenAI officially supports ChatGPT/Codex, subject to product availability and platform restrictions, with no additional publisher geographic exclusions. English-language, best-effort support applies throughout that scope. The bundle has no geographic checks of its own; actual directory availability depends on the portal selections and platform. See the [regional policy and listing status](LISTING.md#availability). Regional support does not establish legal suitability for a particular use or native browser compatibility.
 
 ## Privacy questions
 
