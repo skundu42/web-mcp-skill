@@ -1,5 +1,7 @@
 # WebMCP Enable
 
+<img src="assets/logo.png" alt="WebMCP Enable: browser workflows connected to tools" width="128" height="128">
+
 **A Codex skill for making website workflows callable through browser WebMCP.**
 
 Give Codex a website project or a URL and ask it to expose useful actions—searching a catalog, looking up inventory, or preparing a checkout—as tools. The skill guides discovery, implementation, troubleshooting, and verification while preserving the website's existing behavior.
@@ -107,11 +109,19 @@ Mock tests do not establish either of the last two levels. The next validation s
 
 ## Repository guide
 
-The skill contents live directly at the repository root:
+The skill contents remain directly at the repository root. Listing documents and assets are alongside them:
 
 ```text
 README.md
 SKILL.md
+SUPPORT.md
+PRIVACY.md
+TERMS.md
+RELEASE_NOTES.md
+LISTING.md
+plugin.json
+assets/
+  logo.png
 agents/
   openai.yaml
 references/
@@ -124,4 +134,6 @@ references/
 - [Browser adapters](references/browser-adapters.md) — session-local execution, DOM interactions, completion evidence, and teardown.
 - [Codex metadata](agents/openai.yaml) — display name, description, and suggested invocation prompt.
 
-For improvements or bug reports, include the workflow, browser/client versions, integration mode, expected and observed behavior, and a minimal reproduction with secrets removed. Prefer fixes grounded in actual failures over adding speculative rules.
+`plugin.json` is the release manifest source, not a plugin installed from the repository root. A release copies it to `.codex-plugin/plugin.json`, places the unchanged skill files under `skills/webmcp-enable/`, and includes `assets/logo.png`. Generated ZIPs and expanded bundles stay in the Git-ignored `dist/` directory; creating them does not publish a directory listing.
+
+For improvements or bug reports, see [Support](SUPPORT.md). Read the [privacy notice](PRIVACY.md), [terms of use](TERMS.md), and [release notes](RELEASE_NOTES.md). The [listing worksheet](LISTING.md) records public submission fields and outstanding publisher decisions.

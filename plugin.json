@@ -1,0 +1,32 @@
+{
+  "name": "webmcp-enable",
+  "version": "1.0.1",
+  "description": "Build and verify browser WebMCP tools for website workflows using editable source or a session-local adapter.",
+  "author": {
+    "name": "skundu42",
+    "url": "https://github.com/skundu42"
+  },
+  "homepage": "https://github.com/skundu42/web-mcp-skill",
+  "repository": "https://github.com/skundu42/web-mcp-skill",
+  "keywords": ["webmcp", "websites", "browser", "integration", "codex"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "WebMCP Enable",
+    "shortDescription": "Build and verify WebMCP tools for real website workflows",
+    "longDescription": "An instructions-only skill for adding, repairing, or verifying browser WebMCP integrations. Reuse existing forms and application logic when source is available, or build narrowly scoped, session-local adapters for accessible websites. Preserve validation, authentication, confirmation, and ordinary UI behavior. Report implementation, mocked checks, native-browser verification, and target-agent verification separately. Browser capabilities and authorized access limit coverage; this plugin does not install a browser extension or provide an MCP server.",
+    "developerName": "skundu42",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://github.com/skundu42/web-mcp-skill",
+    "privacyPolicyURL": "https://github.com/skundu42/web-mcp-skill/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/skundu42/web-mcp-skill/blob/main/TERMS.md",
+    "brandColor": "#00DBB0",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "defaultPrompt": [
+      "Use $webmcp-enable to add WebMCP to this website project.",
+      "Use $webmcp-enable to create a session-local adapter for this website.",
+      "Use $webmcp-enable to diagnose this website's WebMCP integration."
+    ]
+  }
+}
